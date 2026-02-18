@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>AI Training Services</title>
@@ -13,47 +14,58 @@
 
 <body>
 
-<header>
-  <h1>AI Model Training Services</h1>
-  <p>Custom AI Training & Consulting</p>
+  <header>
+    <h1>AI Model Training Services</h1>
+    <p>Custom AI Training & Consulting</p>
 
-  <a class="btn" href="mailto:ferditrunk@outlook.de">
-    Contact Me
-  </a>
-</header>
+    <a class="btn" id="contact-btn" href="#">
+      Contact Me
+    </a>
+    <script>
+      const user = "fetrunk";
+      const domain = "gmail.com";
 
-<section>
-  <h2>About</h2>
-  <p>
-    I provide professional AI model training,
-    fine-tuning, and dataset preparation services
-    for startups and companies.
-  </p>
-</section>
+      const email = user + "@" + domain;
 
-<section>
-  <h2>Services</h2>
-  <ul>
-    <li>LLM Fine-tuning</li>
-    <li>Dataset Curation</li>
-    <li>Model Evaluation</li>
-    <li>AI Consulting</li>
-  </ul>
-</section>
+      const link = "mailto:" + email;
 
-<section>
-  <h2>Why Me?</h2>
-  <p>
-    Reliable, fast delivery and practical AI solutions
-    tailored to your business.
-  </p>
-</section>
+      document.getElementById("contact-btn").href = link;
+    </script>
+  </header>
 
-<footer>
-  <p class="footer-text">© 2026 Ferdinand Trunk</p>
-  <a href="imprint.html" class="footer-link">Imprint</a>
-  <a href="privacy.html" class="footer-link">Privacy policy</a>
-</footer>
+  <section>
+    <h2>About</h2>
+    <p>
+      I provide professional AI model training,
+      fine-tuning, and dataset preparation services
+      for startups and companies.
+    </p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>LLM Fine-tuning</li>
+      <li>Dataset Curation</li>
+      <li>Model Evaluation</li>
+      <li>AI Consulting</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Me?</h2>
+    <p>
+      Reliable, fast delivery and practical AI solutions
+      tailored to your business.
+    </p>
+  </section>
+
+  <footer>
+    <p class="footer-text">© 2026 Ferdinand Trunk</p>
+    <a href="imprint.html" class="footer-link">Imprint</a>
+    <a href="privacy.html" class="footer-link">Privacy policy</a>
+  </footer>
 
 </body>
+
 </html>
