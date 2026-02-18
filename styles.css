@@ -57,6 +57,8 @@ ul {
   padding-left: 20px;
 }
 
+
+/* Footer Styling */
 footer {
   text-align: center;
   padding: 25px;
@@ -64,3 +66,22 @@ footer {
   color: #aaa;
   margin-top: 60px;
 }
+
+.footer-text {
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  color: #38bdf8;
+  text-decoration: none;
+  margin-left: 4px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Hover Effect */
+.footer-link:hover {
+  color: #0ea5e9;
+  text-decoration: underline;
+}
+
